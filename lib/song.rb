@@ -59,6 +59,10 @@ class Song
     return song
   end
 
+  def self.destroy_all
+    @@all.length = 0  
+  end
+
 
 
   def self.all
