@@ -60,7 +60,7 @@ class Song
   end
 
   def self.destroy_all
-    @@all.length = 0  
+    @@all = [] 
   end
 
 
