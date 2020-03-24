@@ -48,8 +48,9 @@ class Song
     names = filename.split(' - ')
     song_name= names[1].gsub(".mp3","")
     artist_name= names[0]
-    song.artist_name = artist_name
     song= Song.new_by_name(song_name)
+    song.artist_name = artist_name
+  
 
   end
 
