@@ -50,6 +50,7 @@ class Song
     artist_name= names[0]
     song= Song.new_by_name(song_name)
     song.artist_name = artist_name
+    return song
 
 
   end
