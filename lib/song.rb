@@ -49,7 +49,6 @@ class Song
     song_name= names[1].gsub(".mp3","")
     song.artist_name = artist_name
     artist_name= names[0]
-    song= Song.new_by_name(song_name)
 
   end
 
